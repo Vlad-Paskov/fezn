@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+.main {
+    background: #EFF8ED;
+}
+.wrapper {
+    max-width: 1040px;
+    margin: 0 auto;
+    
+}
+.view_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.h1 {
+    font-family: Montserrat,Trebuchet,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #555;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    line-height: 1.2em;
+}
+.container{
+    padding: 90px 80px;
+}
+.input-wrap{
+ margin: 0 0 5px;
+}
+@media only screen and (max-width: 991px){
+.form-area .input-wrap {
+    margin: 0 0 5px;
+}}
